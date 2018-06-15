@@ -33,7 +33,9 @@ c
      .      'failed to get variable.',0,zero,' ')
          call xplb_exit
       end if
+c --------------------- Maximum admissible stress definition--------------------
       MaxStress = 10000000
+c ------------------------------------------------------------------------------
 c
       do k = 1, nblock
 c       Von mises stress in the axial directions
